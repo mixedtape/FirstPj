@@ -47,7 +47,7 @@ public class Main {
             int choiceMenu = scanner.nextInt();
             showProductMenu product=new showProductMenu();
             if(choiceMenu>0&&choiceMenu<5){
-                product.Showproduct(menuList,choiceMenu);
+                product.showproduct(menuList,choiceMenu);
 
                 int choiceProduct=0;
                 choiceProduct = scanner.nextInt();

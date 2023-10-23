@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class showProductMenu {
-    public void Showproduct(ArrayList<Menu> menuList,int menuNum){
+    public void showproduct(ArrayList<Menu> menuList,int menuNum){
         if (menuNum==1){
             System.out.println("김밥천국에 오신걸 환영합니다.");
             System.out.println("아래 상품 보시고 골라 입력해주세요.\n");
